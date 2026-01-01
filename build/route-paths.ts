@@ -329,7 +329,7 @@ export type RoutePath =
   | `/bilibili/vsearch/:kw/:order?/:embed?/:tid?`
   | `/bilibili/watchlater/:uid/:embed?`
   | `/bilibili/weekly/:embed?`
-  | `/binance/announcement/:type`
+  | `/binance/announcement/:type?/:lang?`
   | `/binance/launchpool`
   | `/bing/:routeParams?`
   | `/bing/search/:keyword`
@@ -392,6 +392,7 @@ export type RoutePath =
   | `/bsky/profile/:handle/feed/:space/:routeParams?`
   | `/bt0/mv/:number/:domain?`
   | `/bt0/tlist/:sc/:domain?`
+  | `/btbtla/detail/:name`
   | `/btbtla/gxlist`
   | `/btzj/:category?`
   | `/buaa/jiaowu/:cddm?`
@@ -625,6 +626,7 @@ export type RoutePath =
   | `/cosplaytele/category/:category`
   | `/cosplaytele/popular/:period`
   | `/cosplaytele/tag/:tag`
+  | `/costar/press-releases/:filter{.+}?`
   | `/counter-strike/news/:category?/:language?`
   | `/cpcaauto/news/:type?/:id?`
   | `/cpcey/:type?`
@@ -722,6 +724,7 @@ export type RoutePath =
   | `/deepseek/news`
   | `/dehenglaw/:language?/:category?`
   | `/deltaio/blog`
+  | `/denonbu/news/:area?`
   | `/dev.to/guides`
   | `/dev.to/top/:period`
   | `/devolverdigital/blog`
